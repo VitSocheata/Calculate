@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="calculator">
+    <h1>Calculator</h1>
+    <div class="display" id="result"></div>
+    <div class="keys">
+      <button onclick="clearDisplay()"> AC </button>
+      <button onclick="mol()"> % </button>
+      <button onclick="div()"> ÷ </button>
+      <button onclick="mul()"> x </button>
+
+      <button onclick="numSeven()"> 7 </button>
+      <button onclick="numEight()"> 8 </button>
+      <button onclick="numNine()"> 9 </button>
+      <button onclick="sub()"> - </button>
+
+      <button onclick="numFour()"> 4 </button>
+      <button onclick="numFive()"> 5 </button>
+      <button onclick="numSix()"> 6 </button>
+      <button onclick="sum()"> + </button>
+
+      <button onclick="numOne()"> 1 </button>
+      <button onclick="numTwo()"> 2 </button>
+      <button onclick="numThree()"> 3 </button>
+      <button class="span-3" onclick="cal()"> = </button>
+
+      <button class="span-2" onclick="numZero"> 0 </button>
+      <button onclick="dot()">.</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
